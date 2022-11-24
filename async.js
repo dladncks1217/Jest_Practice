@@ -30,6 +30,8 @@ const fn = {
       }, 3000);
     });
   },
+
+  makeError3: () => {},
 };
 
 module.exports = { fn };
