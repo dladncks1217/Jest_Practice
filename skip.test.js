@@ -14,7 +14,7 @@ test("0 더하기 3은 3", () => {
   expect(fn.add(num, 3)).toBe(3);
 });
 
-// test.skip하면 그것만 단독 스킵 가능 (only 없을때)
+// test.skip하면 그것만 단독 스킵 가능 (only 없을때 )
 test.skip("0 더하기 4은 4", () => {
   expect(fn.add(num, 4)).toBe(4);
   num = 10;
